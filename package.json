@@ -1,0 +1,16 @@
+{
+  "name": "com.strom.btmvvm",
+  "author": "SelStrom",
+  "displayName": "btmvvm",
+  "description": "",
+  "unity": "2020.3",
+  "version": "0.0.1",
+  "keywords": [
+    "mvvm"
+  ],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SelStrom/btmvvm-unity.git"
+  }
+}
