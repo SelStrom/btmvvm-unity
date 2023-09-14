@@ -5,7 +5,7 @@ using UnityEngine.Assertions;
 namespace Strom.Btmvvm
 {
     public abstract class AbstractWidget<TViewModel> : MonoBehaviour, IEventBindingContext
-        where TViewModel : AbstractVmVariable, new()
+        where TViewModel : AbstractViewModel, new()
     {
         [PublicAPI] public TViewModel ViewModel { get; private set; }
 

@@ -2,11 +2,11 @@
 
 namespace Strom.Btmvvm
 {
-public abstract class AbstractVmVariable : IVmVariable
+public abstract class AbstractViewModel : IVmVariable
 {
 	private readonly List<IVmVariable> _viewModelVariables = new();
 
-	protected AbstractVmVariable()
+	protected AbstractViewModel()
 	{
 		foreach (var fieldInfo in GetType().GetFields())
 		{
