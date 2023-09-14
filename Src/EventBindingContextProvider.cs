@@ -7,7 +7,7 @@ namespace Strom.Btmvvm
     {
         private readonly Dictionary<object, AbstractEventBinding> _keyToBinding = new();
 
-        internal TBinding AddBinding<TBinding>(object bindingKey, TBinding binding)
+        public TBinding AddBinding<TBinding>(object bindingKey, TBinding binding)
             where TBinding : AbstractEventBinding
         {
             if (_keyToBinding.ContainsKey(bindingKey))
